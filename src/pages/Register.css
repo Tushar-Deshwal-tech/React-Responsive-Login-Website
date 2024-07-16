@@ -1,10 +1,10 @@
-.login-main {
+.register-main {
     width: 100%;
     height: 100%;
 }
 
 @media (min-width: 320px) {
-    .login-main {
+    .register-main {
         width: 375px;
         height: 812px;
         top: -891px;
@@ -13,7 +13,7 @@
         opacity: 0px;
     }
 
-    .title-description {
+    .register-title-description {
         position: absolute;
         width: Fixed (327px) px;
         height: Hug (108px) px;
@@ -24,7 +24,7 @@
         font-family: Inter;
     }
 
-    .login-heading-text {
+    .register-heading-text {
         width: Fixed (327px) px;
         height: 80px;
         gap: 0px;
@@ -35,7 +35,7 @@
         text-align: left;
     }
 
-    .sign-text {
+    .register-description {
         width: Fixed (327px) px;
         height: Hug (108px) px;
         top: 76px;
@@ -49,7 +49,7 @@
         color: #878787;
     }
 
-    .email-input-field {
+    .register-email-input-field {
         position: absolute;
         width: Hug (327px) px;
         height: Hug (80px) px;
@@ -59,7 +59,7 @@
         opacity: 0px;
     }
 
-    .email-text {
+    .register-email-text {
         width: 327px;
         height: 20px;
         gap: 0px;
@@ -71,7 +71,7 @@
         text-align: left;
     }
 
-    .email-input {
+    .register-email-input {
         width: Fixed (327px) px;
         height: Hug (52px) px;
         gap: 8px;
@@ -80,14 +80,14 @@
         opacity: 0px;
     }
 
-    .email-input input {
+    .register-email-input input {
         width: 227px;
         height: Hug (52px) px;
         padding: 16px;
         border: none;
     }
 
-    .email-input input::placeholder {
+    .register-email-input input::placeholder {
         width: 295px;
         height: 20px;
         font-family: Inter;
@@ -97,11 +97,11 @@
         text-align: left;
     }
 
-    .email-input input:focus {
+    .register-email-input input:focus {
         outline: none;
     }
 
-    .login-input-field {
+    .register-username-field {
         position: absolute;
         width: Hug (327px) px;
         height: Hug (80px) px;
@@ -111,7 +111,17 @@
         opacity: 0px;
     }
 
-    .login-text {
+    .register-input-field {
+        position: absolute;
+        width: Hug (327px) px;
+        height: Hug (80px) px;
+        top: 416px;
+        left: 24px;
+        gap: 8px;
+        opacity: 0px;
+    }
+
+    .register-text {
         width: 327px;
         height: 20px;
         gap: 0px;
@@ -123,7 +133,7 @@
         text-align: left;
     }
 
-    .login-input {
+    .register-input {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -135,14 +145,14 @@
         opacity: 0px;
     }
 
-    .login-input input {
+    .register-input input {
         width: 227px;
         height: Hug (52px) px;
         padding: 16px;
         border: none;
     }
 
-    .login-input input::placeholder {
+    .register-input input::placeholder {
         width: 295px;
         height: 20px;
         font-family: Inter;
@@ -152,7 +162,7 @@
         text-align: left;
     }
 
-    .login-input input:focus {
+    .register-input input:focus {
         outline: none;
     }
 
@@ -172,30 +182,61 @@
         opacity: 0px;
     }
 
-    .forgot-password {
+    .register-checkbox {
         position: absolute;
-        width: 120px;
-        height: 20px;
-        top: 414px;
-        left: 229px;
-        gap: 0px;
+        display: flex;
+        align-items: center;
+        width: Fixed (327px)px;
+        height: Hug (40px)px;
+        top: 498px;
+        left: 24px;
+        gap: 8px;
         opacity: 0px;
     }
 
-    .forgot-password p {
+    .register-checkbox input {
+        width: 20px;
+        height: 20px;
+        padding: 5.83px 4.17px 5.83px 4.17px;
+        gap: 0px;
+        border-radius: 4px;
+        opacity: 0px;
+        background-color: #FE8C00;
+    }
+    .register-checkbox input[type="checkbox"] {
+        background-color: #FE8C00;
+    }
+    
+    /* Change background color when checked */
+    .register-checkbox input[type="checkbox"]:checked {
+        background-color: #FE8C00;
+    }
+
+    .register-checkbox p {
         font-family: Inter;
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
         text-align: left;
-        color: #FE8C00;
     }
+    .register-checkbox span{
+        color: #FE8C00;
 
-    .signIn-button button {
+    }
+    .error-input {
+        border-color: red;
+        color: red;
+    }
+    
+    .error-checkbox {
+        color: red;
+    }
+    
+    .register-signIn-button button {
         position: absolute;
         width: 327px;
         height: Hug (52px)px;
-        top: 458px;
+        top: 562px;
         left: 24px;
         padding: 16px;
         gap: 8px;
@@ -211,31 +252,31 @@
         color: #FFFFFF;
     }
 
-    .Login-Separator {
+    .register-Separator {
         position: absolute;
         width: Fixed (327px)px;
         height: Hug (20px)px;
-        top: 534px;
+        top: 638px;
         left: 24px;
         gap: 16px;
         opacity: 0px;
     }
 
-    .Other_Method_Login {
+    .register_Other_Method_Login {
         position: absolute;
         width: Fixed (327px)px;
         height: Hug (40px)px;
-        top: 578px;
+        top: 682px;
         left: 24px;
         gap: 16px;
         opacity: 0px;
     }
 
-    .Login-Register {
+    .register {
         position: absolute;
         width: 216px;
         height: 24px;
-        top: 650px;
+        top: 752px;
         left: 80px;
         gap: 0px;
         opacity: 0px;
@@ -246,7 +287,7 @@
         text-align: left;
     }
 
-    .Login-Register span {
+    .register span {
         font-family: Inter;
         font-size: 14px;
         font-weight: 600;
@@ -254,7 +295,8 @@
         text-align: left;
         color: #FE8C00;
     }
-    .Login-Register span a {
+
+    .register span a {
         color: inherit;
     }
 }
